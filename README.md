@@ -39,6 +39,26 @@ Run tests:
 uv run pytest
 ```
 
+## Code quality
+
+Run lint checks:
+
+```powershell
+uv run ruff check .
+```
+
+## Check formatting:
+
+```
+uv run ruff format . --check
+```
+
+## Apply formatting:
+
+```
+uv run ruff format .
+```
+
 ## Текущий статус
 
 Проект находится в начале разработки. Созданы основные директории.

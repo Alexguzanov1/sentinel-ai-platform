@@ -14,7 +14,23 @@ package-dir = {"" = "src"}
 [tool.setuptools.packages.find]
 where = ["src"]
 
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "UP",
+    "B",
+]
+
 [dependency-groups]
 dev = [
     "pytest>=9.1.1",
+    "ruff>=0.15.21",
 ]

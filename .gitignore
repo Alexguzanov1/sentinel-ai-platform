@@ -12,5 +12,7 @@ dist/
 # Virtual environments
 .venv/
 
-# Pytest cache
+# Cache
 .pytest_cache/
+.ruff_cache/
+
