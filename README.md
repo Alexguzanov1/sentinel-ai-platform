@@ -20,6 +20,19 @@
     ├───integration
     └───unit
 ```
+## Local development
+
+Requirements:
+
+- Python 3.12 or 3.13
+- uv
+
+Install the project environment:
+
+```powershell
+uv sync
+```
+
 ## Текущий статус
 
 Проект находится в начале разработки. Созданы основные директории.

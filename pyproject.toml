@@ -6,10 +6,15 @@ build-backend = "setuptools.build_meta"
 name = "sentinel-ai-platform"
 version = "0.1.0"
 description = "A Python service for machine learning workloads"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
