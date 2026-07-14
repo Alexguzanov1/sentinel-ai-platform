@@ -1,0 +1,15 @@
+project:
+  name: sentinel-risk-scoring
+  random_seed: 42
+
+data:
+  input_path: data/raw/telemetry.csv
+  artifacts_dir: artifacts
+  target: failure_within_24h
+
+training:
+  test_size: 0.2
+  decision_threshold: 0.5
+
+logging:
+  level: INFO

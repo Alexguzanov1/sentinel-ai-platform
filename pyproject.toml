@@ -7,6 +7,10 @@ name = "sentinel-ai-platform"
 version = "0.1.0"
 description = "A Python service for machine learning workloads"
 requires-python = ">=3.12,<3.14"
+dependencies = [
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

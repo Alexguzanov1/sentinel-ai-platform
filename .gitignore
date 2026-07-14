@@ -16,3 +16,7 @@ dist/
 .pytest_cache/
 .ruff_cache/
 
+# Enviroment 
+.env
+.env.*
+!.env.example
