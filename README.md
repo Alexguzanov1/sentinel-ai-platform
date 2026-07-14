@@ -33,6 +33,12 @@ Install the project environment:
 uv sync
 ```
 
+Run tests:
+
+```powershell
+uv run pytest
+```
+
 ## Текущий статус
 
 Проект находится в начале разработки. Созданы основные директории.
